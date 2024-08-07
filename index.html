@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Lilita+One&family=Oswald&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tektur&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <div class="left"> Sarthak <span class="aqua-Color" id="aqua-color"> Uniyal </span></div>
+            <div class="right">
+                <ul>
+                    <li><a class="underline-effect" href="#home">Home</a></li>
+                    <li><a class="underline-effect" href="#education">Education</a></li>
+                    <li><a class="underline-effect" href="#skills">Skills</a></li>
+                    <li><a class="underline-effect" href="#project">Projects</a></li>
+                    <li><a class="underline-effect" href="#contact">Contact</a></li>   
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection" id="home">
+            <div class="leftSection" id="margin-space-left">
+                <b>HI</b>, My name is <span class="aqua-Color">&nbsp;Sarthak</span>
+                <div>I have a strong passion</div>
+                <div><span class="spacing">for learning about a</span></div>
+                <span id="animate" class="aqua-Color"></span>
+                <div class="inline">
+                    <div class="Btn" id="Btn">Hire</div>
+                    <div class="Btn" id="Btn">Contact</div>
+                </div>
+            </div>
+            <div class="rightSection" id="increase-width-right"><img src="coder.jpg" alt=""></div>
+        </section>
+
+        <section class="education" id="education">
+            <h2 class="heading">Education</h2>
+            <div class="timeline-items">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"><img src="graphic.png" alt=""></div>
+                    <div class="timeline-date">2021-2024</div>
+                    <div class="timeline-content">
+                        <h3>University</h3>
+                        <p>Graphic Era Hill University - BCA Graduate</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"><img src="Sgrr.png" alt=""></div>
+                    <div class="timeline-date">2021</div>
+                    <div class="timeline-content">
+                        <h3>High School</h3>
+                        <p>Shri Guru Ram Rai Public School - 12th Pass</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"><img src="Sgrr.png" alt=""></div>
+                    <div class="timeline-date">2019</div>
+                    <div class="timeline-content">
+                        <h3>Secondary School</h3>
+                        <p>Shri Guru Ram Rai Public School - 10th Pass</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skill" id="skills">
+            <h2 class="heading" id="space">Skills</h2>
+            <div class="container">
+                <div><img src="html1.png" ></div>
+                <div><img src="css.png" ></div>
+                <div><img src="javascript.png" ></div>
+                <div><img src="c++.png" ></div>
+                <div><img src="python.png" ></div>
+                <div><img src="sql.png" ></div>
+                <div><img src="Mongodb.png" ></div>
+                <div><img src="express.png" id="expressJs"></div>
+                <div><img src="react.png"  id="reactJs" ></div>
+                <div><img src="node.png" id="nodeJs"></div>
+            </div>
+        </section>
+
+        <section class="project" id="project">
+            <h2 class="heading">Projects</h2>
+            <div class="project-container">
+                <div>
+                    <h3>Porfolio <span class="aqua-Color">&nbsp;Website</span></h3>
+                    <p>Welcome to My Portfolio Website! I specialize in the MERN stack, full-stack applications. This portfolio highlights my educational background and showcases a selection of my projects, reflecting my expertise and passion for web development.</p>
+                </div>
+                <div>
+                    <h3>Password <span class="aqua-Color">&nbsp;Manager</span></h3>
+                    <p>I have developed a password management system that organizes passwords in a tabular format. This system includes the functionality to delete entries, ensuring that sensitive information remains confidential and accessible only to authorized users.</p>
+                </div>
+                <div> 
+                    <h3>Whatsapp Chat <span class="aqua-Color">&nbsp;Analyzer</span></h3>
+                    <p class="space-text">Developed a WhatsApp Chat Analyzer to extract insights from conversational data using natural language processing techniques. This tool identifies key information and trends, enhancing communication strategies. Generated reports to improve decision-making processes.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="heading" id="space">Contact <span class="aqua-Color">&nbsp;Me</span></h2>
+
+            <form action="">
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text"
+                        placeholder="Full Name">
+                        <input type="email"
+                        placeholder="Email">
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text"
+                        placeholder="Phone Number">
+                        <input type="text"
+                        placeholder="Subject">
+                    </div>
+                </div>
+
+                <div class="input-group-2">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" class="Btn">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="social-icons">
+            <a><i class='bx bxs-phone'></i></a>
+            <a><i class='bx bx-envelope' ></i></a>
+            <a href="https://www.linkedin.com/in/sarthak-uniyal-a22415259/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/SarthakUniyal"><i class='bx bxl-github' ></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p class="copyright"> &copy; Sarthak Uniyal | All Rights Reserved</p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#animate', {
+            strings: ['Frontend Developer', 'MERN Stack Developer'],
+            typeSpeed: 50,
+            loop:true,
+            backSpeed: 60, // Adjust as needed for smoothness
+            backDelay: 500 // Delay before starting to backspace
+        });
+    </script>
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const navUl = document.querySelector('nav .right ul');
+
+        menuIcon.addEventListener('click', () => {
+            navUl.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
